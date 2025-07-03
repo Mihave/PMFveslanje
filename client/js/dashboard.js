@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userJSON = sessionStorage.getItem('user');
     if (!userJSON) {
         console.log("No logged in user");
-        window.location.href = "client/index.html";
+        window.location.href = "/index.html";
         return;
     }
 
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     logoutBtn.addEventListener("click", () => {
         localStorage.removeItem('user');
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
     });
 
     // Load default section
@@ -57,7 +57,7 @@ async function vrijemeUSekunde(t) {
 }
 
 async function loadHistory(section) {
-    const res = await fetch('/server/tempdata.JSON');
+    const res = await fetch('/data/tempdata.JSON');
     const data = await res.json();
     const user = JSON.parse(sessionStorage.getItem('user'));
     const periodi = data.periodi;
