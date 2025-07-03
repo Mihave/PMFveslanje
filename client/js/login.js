@@ -10,6 +10,7 @@ const basePath = window.location.pathname.includes('PMFveslanje')
   ? '/PMFveslanje/' 
   : '/';
 
+sessionStorage.setItem('path', basePath);
 
 async function getUserByUsername(username) {
     const res = await fetch(basePath + 'data/tempdata.JSON');

@@ -1,3 +1,5 @@
+const basePath = sessionStorage.getItem('path');
+
 document.addEventListener("DOMContentLoaded", () => {
     const dropdown = document.getElementById("section-selector");
     const content = document.getElementById("dashboard-content");
@@ -6,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userJSON = sessionStorage.getItem('user');
     if (!userJSON) {
         console.log("No logged in user");
-        window.location.href = "/index.html";
+        window.location.href = basePath + "/index.html";
         return;
     }
 
@@ -43,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     logoutBtn.addEventListener("click", () => {
         localStorage.removeItem('user');
-        window.location.href = "/index.html";
+        window.location.href = basePath + "/index.html";
     });
 
     // Load default section
@@ -57,7 +59,7 @@ async function vrijemeUSekunde(t) {
 }
 
 async function loadHistory(section) {
-    const res = await fetch('/data/tempdata.JSON');
+    const res = await fetch(basePath + '/data/tempdata.JSON');
     const data = await res.json();
     const user = JSON.parse(sessionStorage.getItem('user'));
     const periodi = data.periodi;
