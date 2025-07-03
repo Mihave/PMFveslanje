@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function getUserByUsername(username) {
-    const res = await fetch('data/tempdata.JSON');
+    const res = await fetch('${window.location.pathname}data/tempdata.JSON');
     const data = await res.json();
     const user = data.users.find(user => user.ime === username);
     if (user) {
@@ -30,7 +30,7 @@ async function login() {
         if (usr.password === password) {
             console.log("Login successful");
             sessionStorage.setItem('user', JSON.stringify(usr))
-            window.location.href = "client/dashboard.html";
+            window.location.href = "${window.location.pathname}client/dashboard.html";
         }
         else {
             alert("Krivi password");
