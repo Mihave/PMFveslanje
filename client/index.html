@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Prijava</h2>
+        <form id="login_form">
+            <label for="username">Ime</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Lozinka</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Prijava</button>
+            <button type="button" id="sign_in" onclick="window.location.href='/client/register.html'">Registracija</button>
+        </form>
+    </div>
+<script src = "js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,2553 @@
+{
+    "periodi": [
+        "11/21", "1/22", "FER 22", "11/22", "8*1000 2023", "3/23", "STEM 23", "10/23", "12/23", "3/24", "FER 24", "STEM 24", "11/24", "03/25", "FER 25", "STEM 25"
+    ],
+    "users": [
+        {
+            "id": 1,
+            "ime": "admin",
+            "password": "admin",
+            "role": "admin",
+            "treninzi": [],
+            "regate": [],
+            "rezultati": []
+        },
+        {
+            "id": 2,
+            "ime": "Vedak Mihael",
+            "password": "asdf",
+            "role": "STEM",
+            "treninzi": [],
+            "regate": [],
+            "rezultati": [],
+            "spol": "m"
+        },
+        {
+            "id": 3,
+            "ime": "Perica Niko",
+            "password": "asdf",
+            "role": "STEM",
+            "treninzi": [],
+            "regate": [],
+            "rezultati": [],
+            "spol": "m"
+
+        }
+    ],
+    "plan": {
+        "regate": {
+            "STEM": 
+            {
+                "datum": "05-2026",
+                "mjesto": "Umag"
+            }
+        },
+        "treninzi": {
+            "gym": [
+                {
+                    "id": 1,
+                    "vjezbe": ["cucanj", "privlak", "bench", "rumunjski deadlift", "biceps"],
+                    "opis": "sve 4x8, bench bucice ili sipka"
+                },
+                {
+                    "id": 2,
+                    "vjezbe": ["deadlift", "zgibovi", "overhead press", "prednji cucanj", "triceps"],
+                    "opis": "sve 4x8, zgibovi <-> lat pulldown, za ovpr bucice ili sipka, umjesto prednjeg cucnja moze i leg press ili leg ekstenzije"
+                }
+            ],
+            "voda": [],
+            "erg": []
+        }
+    },
+    "rezultati": {
+        "1000m": [
+        {
+        "ime": "Opačak Danijel",
+        "vrijeme": "1:34.9",
+        "period": "1/22"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:41.6",
+        "period": "1/22"
+        },
+        {
+        "ime": "Lisica Lorenco",
+        "vrijeme": "1:43.7",
+        "period": "1/22"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:45.2",
+        "period": "1/22"
+        },
+        {
+        "ime": "Zimakijević Vedran",
+        "vrijeme": "1:47.8",
+        "period": "1/22"
+        },
+        {
+        "ime": "Poropat Luka",
+        "vrijeme": "1:48.3",
+        "period": "1/22"
+        },
+        {
+        "ime": "Marciuš Helena",
+        "vrijeme": "1:56.5",
+        "period": "1/22"
+        },
+        {
+        "ime": "Radetić Ivana",
+        "vrijeme": "1:56.6",
+        "period": "1/22"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:58.5",
+        "period": "1/22"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "2:04.4",
+        "period": "1/22"
+        },
+        {
+        "ime": "Barić Vanesa",
+        "vrijeme": "2:08.0",
+        "period": "1/22"
+        },
+        {
+        "ime": "Lugojnić Ivona",
+        "vrijeme": "2:25.3",
+        "period": "1/22"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:34.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.2",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:39.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Zimakijević Vedran",
+        "vrijeme": "1:39.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:40.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:44.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:45.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Lakić Noel",
+        "vrijeme": "1:46.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Agičić Adam",
+        "vrijeme": "1:47.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Sumić Luka",
+        "vrijeme": "1:48.2",
+        "period": "10/23"
+        },
+        {
+        "ime": "Krobot MarkoAntonio",
+        "vrijeme": "1:48.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Duplančić Ante",
+        "vrijeme": "1:49.6",
+        "period": "10/23"
+        },
+        {
+        "ime": "Rodić Aranđel",
+        "vrijeme": "1:51.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "1:52.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:52.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Pinezić Matej",
+        "vrijeme": "1:52.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Tišma Filip",
+        "vrijeme": "1:53.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Jerčić Marko",
+        "vrijeme": "1:53.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:53.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Mijailović Vito",
+        "vrijeme": "1:53.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Detelić Antonio",
+        "vrijeme": "1:55.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Fernežin Grga",
+        "vrijeme": "1:55.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Miočević Filip",
+        "vrijeme": "1:59.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Sabljo Jakov",
+        "vrijeme": "1:59.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Unterhofer Martin",
+        "vrijeme": "2:00.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Šarac Dominik",
+        "vrijeme": "2:01.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Malović Luka",
+        "vrijeme": "2:01.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Jelaš Roko",
+        "vrijeme": "2:02.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Birimiša Tomislav",
+        "vrijeme": "2:03.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Lovrić Filip",
+        "vrijeme": "2:03.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Miletić Fran",
+        "vrijeme": "2:03.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vianelli Luka",
+        "vrijeme": "2:05.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Bobanac Niko",
+        "vrijeme": "2:07.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Stura Filip",
+        "vrijeme": "2:12.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Matić Borna",
+        "vrijeme": "2:30.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Opačak Danijel",
+        "vrijeme": "1:37.1",
+        "period": "11/21"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:37.3*",
+        "period": "11/21"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:44.3",
+        "period": "11/21"
+        },
+        {
+        "ime": "Lisica Lorenco",
+        "vrijeme": "1:45.4",
+        "period": "11/21"
+        },
+        {
+        "ime": "Zimakijević Vedran",
+        "vrijeme": "1:46.4",
+        "period": "11/21"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:47.7",
+        "period": "11/21"
+        },
+        {
+        "ime": "Poropat Luka",
+        "vrijeme": "1:49.4",
+        "period": "11/21"
+        },
+        {
+        "ime": "Agičić Adam",
+        "vrijeme": "1:54.0",
+        "period": "11/21"
+        },
+        {
+        "ime": "Radetić Ivana",
+        "vrijeme": "1:57.0",
+        "period": "11/21"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:58.2",
+        "period": "11/21"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "2:04.1",
+        "period": "11/21"
+        },
+        {
+        "ime": "Medvedec Vala",
+        "vrijeme": "2:05.5",
+        "period": "11/21"
+        },
+        {
+        "ime": "Milašin Katja",
+        "vrijeme": "2:06.3",
+        "period": "11/21"
+        },
+        {
+        "ime": "Škarić Mate",
+        "vrijeme": "2:06.3",
+        "period": "11/21"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "2:11.0",
+        "period": "11/21"
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "2:12.3",
+        "period": "11/21"
+        },
+        {
+        "ime": "Kumanović Iva",
+        "vrijeme": "2:19.4",
+        "period": "11/21"
+        },
+        {
+        "ime": "Cvitanović Marita",
+        "vrijeme": "2:20.2*",
+        "period": "11/21"
+        },
+        {
+        "ime": "Šaban Gianna",
+        "vrijeme": "2:23.3",
+        "period": "11/21"
+        },
+        {
+        "ime": "Lugojnić Ivona",
+        "vrijeme": "2:37.1",
+        "period": "11/21"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:38.2",
+        "period": "11/22"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:38.6",
+        "period": "11/22"
+        },
+        {
+        "ime": "Opačak Danijel",
+        "vrijeme": "1:38.7",
+        "period": "11/22"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:39.1",
+        "period": "11/22"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:39.5",
+        "period": "11/22"
+        },
+        {
+        "ime": "Perica Vice",
+        "vrijeme": "1:40.6",
+        "period": "11/22"
+        },
+        {
+        "ime": "Krobot Marko Antonio",
+        "vrijeme": "1:40.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:42.5",
+        "period": "11/22"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:43.3",
+        "period": "11/22"
+        },
+        {
+        "ime": "Krmpotić Roko",
+        "vrijeme": "1:44.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Agičić Adam",
+        "vrijeme": "1:45.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:46.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Sumić Luka",
+        "vrijeme": "1:46.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:48.3",
+        "period": "11/22"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:50.7",
+        "period": "11/22"
+        },
+        {
+        "ime": "Čučuković Luka",
+        "vrijeme": "1:51.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:51.4",
+        "period": "11/22"
+        },
+        {
+        "ime": "Poropat Luka",
+        "vrijeme": "1:51.5",
+        "period": "11/22"
+        },
+        {
+        "ime": "Zima Jan",
+        "vrijeme": "1:53.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Rubčić Paula",
+        "vrijeme": "1:53.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Škarić Mate",
+        "vrijeme": "1:55.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Marijanović Davor",
+        "vrijeme": "1:57.2",
+        "period": "11/22"
+        },
+        {
+        "ime": "Lovrić Filip",
+        "vrijeme": "1:57.4",
+        "period": "11/22"
+        },
+        {
+        "ime": "Miletić Fran",
+        "vrijeme": "1:57.4",
+        "period": "11/22"
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:57.6",
+        "period": "11/22"
+        },
+        {
+        "ime": "Radetić Ivana",
+        "vrijeme": "1:59.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "2:00.2",
+        "period": "11/22"
+        },
+        {
+        "ime": "Medvedec Vala",
+        "vrijeme": "2:02.3",
+        "period": "11/22"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "2:02.6",
+        "period": "11/22"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "2:02.7",
+        "period": "11/22"
+        },
+        {
+        "ime": "Rinčić Davor",
+        "vrijeme": "2:04.1",
+        "period": "11/22"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "2:05.3",
+        "period": "11/22"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "2:07.0",
+        "period": "11/22"
+        },
+        {
+        "ime": "Barić Vanesa",
+        "vrijeme": "2:08.5",
+        "period": "11/22"
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:12.4",
+        "period": "11/22"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "2:13.4",
+        "period": "11/22"
+        },
+        {
+        "ime": "Kanić Petra",
+        "vrijeme": "2:13.5",
+        "period": "11/22"
+        },
+        {
+        "ime": "Vulin Eli",
+        "vrijeme": "2:15.8",
+        "period": "11/22"
+        },
+        {
+        "ime": "Lugojnić Ivona",
+        "vrijeme": "2:29.9",
+        "period": "11/22"
+        },
+        {
+        "ime": "Varga Marija",
+        "vrijeme": "2:36.8",
+        "period": "11/22"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:34.3",
+        "period": "11/24"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.7",
+        "period": "11/24"
+        },
+        {
+        "ime": "Lonza Tino",
+        "vrijeme": "1:37.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Škopljanac Slavko",
+        "vrijeme": "1:44.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:46.7",
+        "period": "11/24"
+        },
+        {
+        "ime": "Jerončić Duje",
+        "vrijeme": "1:46.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Antunović Roko",
+        "vrijeme": "1:48.0",
+        "period": "11/24"
+        },
+        {
+        "ime": "Vuković Matija",
+        "vrijeme": "1:48.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Cvitković Matej",
+        "vrijeme": "1:48.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Lerga Marul",
+        "vrijeme": "1:49.2",
+        "period": "11/24"
+        },
+        {
+        "ime": "Hajnžić Vidrih Karlo",
+        "vrijeme": "1:52.4",
+        "period": "11/24"
+        },
+        {
+        "ime": "Malović Luka",
+        "vrijeme": "1:53.4",
+        "period": "11/24"
+        },
+        {
+        "ime": "Franić Petar",
+        "vrijeme": "1:55.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Dragičević Nattan",
+        "vrijeme": "1:55.9",
+        "period": "11/24"
+        },
+        {
+        "ime": "Sršen Gabrijel",
+        "vrijeme": "1:57.3",
+        "period": "11/24"
+        },
+        {
+        "ime": "Knez Marko",
+        "vrijeme": "2:00.1",
+        "period": "11/24"
+        },
+        {
+        "ime": "Vidović Petar",
+        "vrijeme": "2:03.5",
+        "period": "11/24"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.2",
+        "period": "12/23"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:33.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Zimakijević Vedran",
+        "vrijeme": "1:36.5",
+        "period": "12/23"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:38.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.5",
+        "period": "12/23"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:42.5",
+        "period": "12/23"
+        },
+        {
+        "ime": "Duplančić Ante",
+        "vrijeme": "1:45.6",
+        "period": "12/23"
+        },
+        {
+        "ime": "Detelić Antonio",
+        "vrijeme": "1:45.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Rodić Aranđel",
+        "vrijeme": "1:46.9",
+        "period": "12/23"
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "1:48.2",
+        "period": "12/23"
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:48.6",
+        "period": "12/23"
+        },
+        {
+        "ime": "Mijailović Vito",
+        "vrijeme": "1:49.4",
+        "period": "12/23"
+        },
+        {
+        "ime": "Papak Marko",
+        "vrijeme": "1:49.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Tišma Filip",
+        "vrijeme": "1:49.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:50.9",
+        "period": "12/23"
+        },
+        {
+        "ime": "Marmilla Dominic",
+        "vrijeme": "1:51.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:51.2",
+        "period": "12/23"
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:52.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Stura Filip",
+        "vrijeme": "1:52.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Unterhofer Martin",
+        "vrijeme": "1:54.1",
+        "period": "12/23"
+        },
+        {
+        "ime": "Jelaš Roko",
+        "vrijeme": "1:55.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.4",
+        "period": "3/23"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:34.7",
+        "period": "3/23"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.7",
+        "period": "3/23"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:37.9",
+        "period": "3/23"
+        },
+        {
+        "ime": "Krobot Marko Antonio",
+        "vrijeme": "1:39.3",
+        "period": "3/23"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:39.6",
+        "period": "3/23"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:43.7",
+        "period": "3/23"
+        },
+        {
+        "ime": "Agičić Adam",
+        "vrijeme": "1:46.2",
+        "period": "3/23"
+        },
+        {
+        "ime": "Čučuković Luka",
+        "vrijeme": "1:47.2",
+        "period": "3/23"
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:47.6",
+        "period": "3/23"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.8",
+        "period": "3/23"
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "1:49.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:50.1",
+        "period": "3/23"
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:55.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:55.2",
+        "period": "3/23"
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:56.8",
+        "period": "3/23"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:57.6",
+        "period": "3/23"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:58.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "2:00.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "2:00.9",
+        "period": "3/23"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "2:03.7",
+        "period": "3/23"
+        },
+        {
+        "ime": "Vulin Eli",
+        "vrijeme": "2:10.6",
+        "period": "3/23"
+        },
+        {
+        "ime": "Petrovečki Vedrana",
+        "vrijeme": "2:12.1",
+        "period": "3/23"
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:17.7",
+        "period": "3/23"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:30.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Smoljanović Marin",
+        "vrijeme": "1:31.2",
+        "period": "3/24"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:35.7",
+        "period": "3/24"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.3",
+        "period": "3/24"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:41.1",
+        "period": "3/24"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:41.5",
+        "period": "3/24"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:42.6",
+        "period": "3/24"
+        },
+        {
+        "ime": "Birimiša Tomislav",
+        "vrijeme": "1:45.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Marmilla Dominic",
+        "vrijeme": "1:46.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Rodić Aranđel",
+        "vrijeme": "1:48.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:50.1",
+        "period": "3/24"
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:50.1",
+        "period": "3/24"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.1",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:37.4",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.5",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:37.6",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Perica Vice",
+        "vrijeme": "1:38.3",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:49.0",
+        "period": "8*1000 2023"
+        },
+        {
+        "ime": "Perica Vice",
+        "vrijeme": "1:37.2",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:37.4",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:37.4",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:37.7",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:39.5",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Krobot Marko Antonio",
+        "vrijeme": "1:40.2",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:40.6",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:41.5",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:42.1",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Krmpotić Roko",
+        "vrijeme": "1:45.6",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Opačak Danijel",
+        "vrijeme": "1:45.9",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Sumić Luka",
+        "vrijeme": "1:46.6",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.6",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.8",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:51.1",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:55.4",
+        "period": "FER 22"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:35.8",
+        "period": "FER 24"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.4",
+        "period": "FER 24"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:31.2",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:34.2",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.5",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.6",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:36.8",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:39.8",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:41.6",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:48.4",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:29.1",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Smoljanović Marin",
+        "vrijeme": "1:31.6",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:32.5",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:34.3",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.4",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:37.8",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:38.4",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Duplančić Ante",
+        "vrijeme": "1:41.3",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Jelaš Roko",
+        "vrijeme": "2:05.0",
+        "period": "11/24"
+        },
+        {
+        "ime": "Bralić Luka",
+        "vrijeme": "1:51.2",
+        "period": "11/24"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:37.0",
+        "period": "03/25"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.9",
+        "period": "03/25"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.6",
+        "period": "03/25"
+        },
+        {
+        "ime": "Knez Marko",
+        "vrijeme": "1:56.9",
+        "period": "03/25"
+        },
+        {
+        "ime": "Belinić Dominik",
+        "vrijeme": "1:55.8",
+        "period": "03/25"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:31.5",
+        "period": "03/25"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:31.1",
+        "period": "03/25"
+        },
+        {
+        "ime": "Vidrih Hajnžić Karlo",
+        "vrijeme": "1:50.8",
+        "period": "03/25"
+        },
+        {
+        "ime": "Jerončić Duje",
+        "vrijeme": "1:43.5",
+        "period": "03/25"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:39.4",
+        "period": "FER 25"
+        },
+        {
+        "ime": "Cvitković Matej",
+        "vrijeme": "1:36.4",
+        "period": "FER 25"
+        },
+        {
+        "ime": "Lonza Tino",
+        "vrijeme": "1:35.3",
+        "period": "FER 25"
+        },
+        {
+        "ime": "Škopljanac Slavko",
+        "vrijeme": "1:42.8",
+        "period": "FER 25"
+        },
+        {
+        "ime": "Malović Luka",
+        "vrijeme": "1:54.3.",
+        "period": "08/25"
+        },
+        {
+        "ime": "Škopljanac Slavko",
+        "vrijeme": "1:43.2",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:30.1",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:39.2",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:28.1",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.6",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:35.8",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:37.7",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Cvitković Matej",
+        "vrijeme": "1:34.9",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Jerončić Duje",
+        "vrijeme": "1:46.9",
+        "period": "STEM 25"
+        },
+        {
+        "ime": "Lonza Tino",
+        "vrijeme": "1:33.8",
+        "period": "STEM 25"
+        }
+        ],
+        "500m": [
+        {
+        "ime": "Faber Bruna",
+        "vrijeme": "1:52.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Grnčarovski Elena",
+        "vrijeme": "1:46.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Bošnjak Vrh Gea",
+        "vrijeme": "1:51.6",
+        "period": "3/24"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:47.7",
+        "period": "3/24"
+        },
+        {
+        "ime": "Marjanović Lucija",
+        "vrijeme": "1:51.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Smilović Mirjam",
+        "vrijeme": "1:47.5",
+        "period": "3/24"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:47.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:40.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:41.4",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:41.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:42.4",
+        "period": "3/24"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:43.6",
+        "period": "10/23"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:44.8",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:45.6",
+        "period": "12/23"
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:45.7",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:45.8",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Grnčarovski Dora",
+        "vrijeme": "1:46.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Radetić Ivana",
+        "vrijeme": "1:46.3",
+        "period": "FER22"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:46.3",
+        "period": "12/23"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:46.4",
+        "period": "3/23"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "1:46.5",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:46.7",
+        "period": "3/24"
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:46.8",
+        "period": "3/23"
+        },
+        {
+        "ime": "Grnčarovski Elena",
+        "vrijeme": "1:46.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:47.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:47.0",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:47.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:47.2",
+        "period": "12/23"
+        },
+        {
+        "ime": "Smilović Mirjam",
+        "vrijeme": "1:47.5",
+        "period": "3/24"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:47.7",
+        "period": "3/24"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:48.0",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "1:48.1",
+        "period": "3/23"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:48.2",
+        "period": "3/24"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:48.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Milašin Katja",
+        "vrijeme": "1:48.3",
+        "period": "FER22"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:48.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:48.5",
+        "period": "3/23"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "1:48.6",
+        "period": "10/23"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:48.8",
+        "period": "3/23"
+        },
+        {
+        "ime": "Grnčarovski Dora",
+        "vrijeme": "1:49.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:49.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "1:49.4",
+        "period": "FER22"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:49.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Pučar Vita",
+        "vrijeme": "1:49.5",
+        "period": "12/23"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:50.0",
+        "period": "STEM 23"
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:50.1",
+        "period": "FER22"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:50.1",
+        "period": "12/23"
+        },
+        {
+        "ime": "Petrovečki Vedrana",
+        "vrijeme": "1:50.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Smilović Mirjam",
+        "vrijeme": "1:51.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "1:51.2",
+        "period": "12/23"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:51.3",
+        "period": "3/23"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:51.6",
+        "period": "FER22"
+        },
+        {
+        "ime": "Bošnjak Vrh Gea",
+        "vrijeme": "1:51.6",
+        "period": "3/24"
+        },
+        {
+        "ime": "Grnčarovski Dora",
+        "vrijeme": "1:51.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Barić Vanesa",
+        "vrijeme": "1:51.8",
+        "period": "FER22"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "1:51.8",
+        "period": "3/23"
+        },
+        {
+        "ime": "Petrovečki Vedrana",
+        "vrijeme": "1:51.8",
+        "period": "12/23"
+        },
+        {
+        "ime": "Marjanović Lucija",
+        "vrijeme": "1:51.8",
+        "period": "3/24"
+        },
+        {
+        "ime": "Faber Bruna",
+        "vrijeme": "1:52.0",
+        "period": "3/24"
+        },
+        {
+        "ime": "Kumanović Iva",
+        "vrijeme": "1:52.2",
+        "period": "3/23"
+        },
+        {
+        "ime": "Božikov Cvita",
+        "vrijeme": "1:53.4",
+        "period": "12/23"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "1:53.6",
+        "period": "FER22"
+        },
+        {
+        "ime": "Marjanović Lucija",
+        "vrijeme": "1:53.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Domazet Eli",
+        "vrijeme": "1:53.8",
+        "period": "12/23"
+        },
+        {
+        "ime": "Klarić Mirta",
+        "vrijeme": "1:54.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "1:54.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Faber Bruna",
+        "vrijeme": "1:54.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Medvedec Vala",
+        "vrijeme": "1:55.2",
+        "period": "FER22"
+        },
+        {
+        "ime": "Rusendić Gabriela",
+        "vrijeme": "1:55.5",
+        "period": "12/23"
+        },
+        {
+        "ime": "Klarić Mirta",
+        "vrijeme": "1:55.7",
+        "period": "10/23"
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "1:56.6",
+        "period": "FER22"
+        },
+        {
+        "ime": "Kumanović Iva",
+        "vrijeme": "1:56.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vetma Jelena",
+        "vrijeme": "1:57.3",
+        "period": "12/23"
+        },
+        {
+        "ime": "Rusendić Gabriela",
+        "vrijeme": "1:57.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "1:57.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:57.9",
+        "period": "FER22"
+        },
+        {
+        "ime": "Marjanović Lucija",
+        "vrijeme": "1:59.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Petrovečki Vedrana",
+        "vrijeme": "2:00.0",
+        "period": "3/23"
+        },
+        {
+        "ime": "Grgljušić Anica",
+        "vrijeme": "2:00.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:00.3",
+        "period": "12/23"
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:00.7",
+        "period": "FER22"
+        },
+        {
+        "ime": "Mladina Nina",
+        "vrijeme": "2:01.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Končevski Nikolina",
+        "vrijeme": "2:01.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Kaćunić Antonia",
+        "vrijeme": "2:02.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:02.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Božikov Cvita",
+        "vrijeme": "2:03.2",
+        "period": "10/23"
+        },
+        {
+        "ime": "Blašković Katarina",
+        "vrijeme": "2:05.0",
+        "period": "12/23"
+        },
+        {
+        "ime": "Vulin Eli",
+        "vrijeme": "2:06.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Machata Marita",
+        "vrijeme": "2:06.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Matković Julijana",
+        "vrijeme": "2:07.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vetma Jelena",
+        "vrijeme": "2:07.6",
+        "period": "10/23"
+        },
+        {
+        "ime": "Domazet Eli",
+        "vrijeme": "2:07.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Juranov Karla",
+        "vrijeme": "2:08.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Pučar Vita",
+        "vrijeme": "2:08.5",
+        "period": "10/23"
+        },
+        {
+        "ime": "Vacka Majda",
+        "vrijeme": "2:11.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Blašković Katarina",
+        "vrijeme": "2:16.0",
+        "period": "10/23"
+        },
+        {
+        "ime": "Bošnjak Vrh Gea",
+        "vrijeme": "2:16.9",
+        "period": "10/23"
+        },
+        {
+        "ime": "Varga Marija",
+        "vrijeme": "2:17.7",
+        "period": "12/23"
+        },
+        {
+        "ime": "Tomić Bela",
+        "vrijeme": "2:19.4",
+        "period": "10/23"
+        },
+        {
+        "ime": "Matković Petra",
+        "vrijeme": "2:19.4",
+        "period": "3/23"
+        },
+        {
+        "ime": "Kovačić Nikolina",
+        "vrijeme": "2:21.8",
+        "period": "10/23"
+        },
+        {
+        "ime": "Bedić Noemi",
+        "vrijeme": "2:25.3",
+        "period": "10/23"
+        },
+        {
+        "ime": "Ciganović Ana",
+        "vrijeme": "2:30.1",
+        "period": "10/23"
+        },
+        {
+        "ime": "Žuvanić Ela",
+        "vrijeme": "1:43.3",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Grnčarovski Dora",
+        "vrijeme": "1:43.7",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:44.6",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Drvodelić Katarina",
+        "vrijeme": "1:44.9",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Kristić Lucija",
+        "vrijeme": "1:45.9",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Grnčarovski Elena",
+        "vrijeme": "1:44.6",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:48.3",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Smilović Mirjam",
+        "vrijeme": "1:49.1",
+        "period": "STEM 24"
+        },
+        {
+        "ime": "Lučev Barbara",
+        "vrijeme": "2:03.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Hadžihalimović Areta",
+        "vrijeme": "1:57.3",
+        "period": "11/24"
+        },
+        {
+        "ime": "Radin Ivana",
+        "vrijeme": "1:57.6",
+        "period": "11/24"
+        },
+        {
+        "ime": "Srebačić Sofija",
+        "vrijeme": "2:03.1",
+        "period": "11/24"
+        },
+        {
+        "ime": "Vlahov Luna",
+        "vrijeme": "1:57.8",
+        "period": "11/24"
+        },
+        {
+        "ime": "Mandić Leonarda",
+        "vrijeme": "1:46.5",
+        "period": "11/24"
+        },
+        {
+        "ime": "Domazet-Lošo Lucija",
+        "vrijeme": "1:55.1",
+        "period": "11/24"
+        },
+        {
+        "ime": "Hajnžić Vidrih Karlo",
+        "vrijeme": "1:52.4",
+        "period": ""
+        },
+        {
+        "ime": "Malović Luka",
+        "vrijeme": "1:53.4",
+        "period": ""
+        },
+        {
+        "ime": "Franić Petar",
+        "vrijeme": "1:55.8",
+        "period": ""
+        },
+        {
+        "ime": "Dragičević Nattan",
+        "vrijeme": "1:55.9",
+        "period": ""
+        },
+        {
+        "ime": "Sršen Gabrijel",
+        "vrijeme": "1:57.3",
+        "period": ""
+        },
+        {
+        "ime": "Knez Marko",
+        "vrijeme": "2:00.1",
+        "period": ""
+        },
+        {
+        "ime": "Vidović Petar",
+        "vrijeme": "2:03.5",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.2",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:33.7",
+        "period": ""
+        },
+        {
+        "ime": "Zimakijević Vedran",
+        "vrijeme": "1:36.5",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.7",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:38.0",
+        "period": ""
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.5",
+        "period": ""
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:42.5",
+        "period": ""
+        },
+        {
+        "ime": "Duplančić Ante",
+        "vrijeme": "1:45.6",
+        "period": ""
+        },
+        {
+        "ime": "Detelić Antonio",
+        "vrijeme": "1:45.7",
+        "period": ""
+        },
+        {
+        "ime": "Rodić Aranđel",
+        "vrijeme": "1:46.9",
+        "period": ""
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "1:48.2",
+        "period": ""
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:48.6",
+        "period": ""
+        },
+        {
+        "ime": "Mijailović Vito",
+        "vrijeme": "1:49.4",
+        "period": ""
+        },
+        {
+        "ime": "Papak Marko",
+        "vrijeme": "1:49.7",
+        "period": ""
+        },
+        {
+        "ime": "Tišma Filip",
+        "vrijeme": "1:49.7",
+        "period": ""
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:50.9",
+        "period": ""
+        },
+        {
+        "ime": "Marmilla Dominic",
+        "vrijeme": "1:51.0",
+        "period": ""
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:51.2",
+        "period": ""
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:52.0",
+        "period": ""
+        },
+        {
+        "ime": "Stura Filip",
+        "vrijeme": "1:52.7",
+        "period": ""
+        },
+        {
+        "ime": "Unterhofer Martin",
+        "vrijeme": "1:54.1",
+        "period": ""
+        },
+        {
+        "ime": "Jelaš Roko",
+        "vrijeme": "1:55.7",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.4",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:34.7",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.7",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:37.9",
+        "period": ""
+        },
+        {
+        "ime": "Krobot Marko Antonio",
+        "vrijeme": "1:39.3",
+        "period": ""
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:39.6",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:43.7",
+        "period": ""
+        },
+        {
+        "ime": "Agičić Adam",
+        "vrijeme": "1:46.2",
+        "period": ""
+        },
+        {
+        "ime": "Čučuković Luka",
+        "vrijeme": "1:47.2",
+        "period": ""
+        },
+        {
+        "ime": "Donkov Roko Bruno",
+        "vrijeme": "1:47.6",
+        "period": ""
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.8",
+        "period": ""
+        },
+        {
+        "ime": "Premuš Ivan",
+        "vrijeme": "1:49.0",
+        "period": ""
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:50.1",
+        "period": ""
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:55.0",
+        "period": ""
+        },
+        {
+        "ime": "Dušić Natali",
+        "vrijeme": "1:55.2",
+        "period": ""
+        },
+        {
+        "ime": "Alduk Tonka",
+        "vrijeme": "1:56.8",
+        "period": ""
+        },
+        {
+        "ime": "Lovaković Mihaela",
+        "vrijeme": "1:57.6",
+        "period": ""
+        },
+        {
+        "ime": "Filipović Nina",
+        "vrijeme": "1:58.0",
+        "period": ""
+        },
+        {
+        "ime": "Markota Marina",
+        "vrijeme": "2:00.0",
+        "period": ""
+        },
+        {
+        "ime": "Ludaš Lina",
+        "vrijeme": "2:00.9",
+        "period": ""
+        },
+        {
+        "ime": "Kurta Lana",
+        "vrijeme": "2:03.7",
+        "period": ""
+        },
+        {
+        "ime": "Vulin Eli",
+        "vrijeme": "2:10.6",
+        "period": ""
+        },
+        {
+        "ime": "Petrovečki Vedrana",
+        "vrijeme": "2:12.1",
+        "period": ""
+        },
+        {
+        "ime": "Dimzov Dea",
+        "vrijeme": "2:17.7",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:30.8",
+        "period": ""
+        },
+        {
+        "ime": "Smoljanović Marin",
+        "vrijeme": "1:31.2",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:35.7",
+        "period": ""
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.3",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:41.1",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:41.5",
+        "period": ""
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:42.6",
+        "period": ""
+        },
+        {
+        "ime": "Birimiša Tomislav",
+        "vrijeme": "1:45.0",
+        "period": ""
+        },
+        {
+        "ime": "Marmilla Dominic",
+        "vrijeme": "1:46.8",
+        "period": ""
+        },
+        {
+        "ime": "Rodić Aranđel",
+        "vrijeme": "1:48.0",
+        "period": ""
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:50.1",
+        "period": ""
+        },
+        {
+        "ime": "Kašnar Nikola",
+        "vrijeme": "1:50.1",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:33.1",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:37.4",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.5",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:37.6",
+        "period": ""
+        },
+        {
+        "ime": "Perica Vice",
+        "vrijeme": "1:38.3",
+        "period": ""
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:49.0",
+        "period": ""
+        },
+        {
+        "ime": "Perica Vice",
+        "vrijeme": "1:37.2",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:37.4",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:37.4",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:37.7",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:39.5",
+        "period": ""
+        },
+        {
+        "ime": "Krobot Marko Antonio",
+        "vrijeme": "1:40.2",
+        "period": ""
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:40.6",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:41.5",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:42.1",
+        "period": ""
+        },
+        {
+        "ime": "Krmpotić Roko",
+        "vrijeme": "1:45.6",
+        "period": ""
+        },
+        {
+        "ime": "Opačak Danijel",
+        "vrijeme": "1:45.9",
+        "period": ""
+        },
+        {
+        "ime": "Sumić Luka",
+        "vrijeme": "1:46.6",
+        "period": ""
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.6",
+        "period": ""
+        },
+        {
+        "ime": "Glavočić Sven",
+        "vrijeme": "1:47.8",
+        "period": ""
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:51.1",
+        "period": ""
+        },
+        {
+        "ime": "Stjepčević Dominik",
+        "vrijeme": "1:55.4",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:35.8",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.4",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:31.2",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:34.2",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.5",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.6",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:36.8",
+        "period": ""
+        },
+        {
+        "ime": "Pavleković Dino",
+        "vrijeme": "1:39.8",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:41.6",
+        "period": ""
+        },
+        {
+        "ime": "Velimirović Ivan",
+        "vrijeme": "1:48.4",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:29.1",
+        "period": ""
+        },
+        {
+        "ime": "Smoljanović Marin",
+        "vrijeme": "1:31.6",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:32.5",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:34.3",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:36.4",
+        "period": ""
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:37.8",
+        "period": ""
+        },
+        {
+        "ime": "Doždor Ivan",
+        "vrijeme": "1:38.4",
+        "period": ""
+        },
+        {
+        "ime": "Duplančić Ante",
+        "vrijeme": "1:41.3",
+        "period": ""
+        },
+        {
+        "ime": "Jelaš Roko",
+        "vrijeme": "2:05.0",
+        "period": ""
+        },
+        {
+        "ime": "Bralić Luka",
+        "vrijeme": "1:51.2",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:37.0",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:37.9",
+        "period": ""
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:38.6",
+        "period": ""
+        },
+        {
+        "ime": "Knez Marko",
+        "vrijeme": "1:56.9",
+        "period": ""
+        },
+        {
+        "ime": "Belinić Dominik",
+        "vrijeme": "1:55.8",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:31.5",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:31.1",
+        "period": ""
+        },
+        {
+        "ime": "Vidrih Hajnžić Karlo",
+        "vrijeme": "1:50.8",
+        "period": ""
+        },
+        {
+        "ime": "Jerončić Duje",
+        "vrijeme": "1:43.5",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:39.4",
+        "period": ""
+        },
+        {
+        "ime": "Cvitković Matej",
+        "vrijeme": "1:36.4",
+        "period": ""
+        },
+        {
+        "ime": "Lonza Tino",
+        "vrijeme": "1:35.3",
+        "period": ""
+        },
+        {
+        "ime": "Škopljanac Slavko",
+        "vrijeme": "1:42.8",
+        "period": ""
+        },
+        {
+        "ime": "Malović Luka",
+        "vrijeme": "1:54.3.",
+        "period": ""
+        },
+        {
+        "ime": "Škopljanac Slavko",
+        "vrijeme": "1:43.2",
+        "period": ""
+        },
+        {
+        "ime": "Radić Roko",
+        "vrijeme": "1:30.1",
+        "period": ""
+        },
+        {
+        "ime": "Vedak Mihael",
+        "vrijeme": "1:39.2",
+        "period": ""
+        },
+        {
+        "ime": "Perica Niko",
+        "vrijeme": "1:28.1",
+        "period": ""
+        },
+        {
+        "ime": "Vladić Lovro",
+        "vrijeme": "1:36.6",
+        "period": ""
+        },
+        {
+        "ime": "Babajko Lovre",
+        "vrijeme": "1:35.8",
+        "period": ""
+        },
+        {
+        "ime": "Stjepić Borna",
+        "vrijeme": "1:37.7",
+        "period": ""
+        },
+        {
+        "ime": "Cvitković Matej",
+        "vrijeme": "1:34.9",
+        "period": ""
+        },
+        {
+        "ime": "Jerončić Duje",
+        "vrijeme": "1:46.9",
+        "period": ""
+        },
+        {
+        "ime": "Lonza Tino",
+        "vrijeme": "1:33.8",
+        "period": ""
+        }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/chart.js"></script>
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="left-menu">
+            <select id="section-selector">
+                <option value="current">Slijedeći trening</option>
+                <option value="history">Povijest</option>
+                <option value="plan">Plan treninga</option>
+                <option value="userdata">Podaci</option>
+            </select>
+        </div>
+        <div class="right-menu">
+            <button id="logout-btn">Odjava</button>
+        </div>
+    </header>
+
+    <main id="dashboard-content">
+        <!-- Dynamic content gets inserted here -->
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
