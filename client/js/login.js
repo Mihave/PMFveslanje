@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const basePath = window.location.pathname.includes('PMFveslanje') 
   ? '/PMFveslanje/' 
   : '/';
+  
 
 async function getUserByUsername(username) {
     const res = await fetch('${basePath}data/tempdata.JSON');
