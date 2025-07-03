@@ -65,14 +65,14 @@ async function loadHistory(section) {
     if (user.spol === 'm') {
         let testovi = data.rezultati['1000m'].filter((it) => it.ime === user.ime);
         testovi.forEach(async t => t.vrijeme = await vrijemeUSekunde(t.vrijeme));
-        renderUserTestChart(user, testovi, '1000m', periodi);
+        renderUserTestChart(user, testovi, '1000m', periodi, type="power");
     } else if (user.spol === 'f') {
         const testovi = data.rezultati['500m'].filter((it) => it.ime === user.ime);
     }
 
 }
 
-async function renderUserTestChart(user, userResults, testType, periods, containerId = "dashboard-content") {
+async function renderUserTestChart(user, userResults, testType, periods, type="time", containerId = "dashboard-content") {
     // Ensure the container exists or create it
     let container = document.getElementById(containerId);
     if (!container) {
@@ -111,6 +111,9 @@ async function renderUserTestChart(user, userResults, testType, periods, contain
             const [min, sec] = t.split(":");
             const m = parseInt(min);
             const s = parseFloat(sec);
+            if (type == "power") {
+                return 2.8 / ((m*60+s)/500)**3;
+            }
             return 2*(m * 60 + s);
         });
         
@@ -139,7 +142,7 @@ async function renderUserTestChart(user, userResults, testType, periods, contain
             plugins: {
                 title: {
                     display: true,
-                    text: `${testType} Test Results for ${user.ime}`
+                    text: `${testType} - ${user.ime}`
                 }
             },
             scales: {
@@ -147,13 +150,13 @@ async function renderUserTestChart(user, userResults, testType, periods, contain
                     beginAtZero: false,
                     title: {
                         display: true,
-                        text: "Time (s)"
+                        text: type == "power" ? "Snaga (W)" : "Vrijeme (s)" 
                     }
                 },
                 x: {
                     title: {
                         display: true,
-                        text: "Training Period"
+                        text: "Period"
                     }
                 }
             }
